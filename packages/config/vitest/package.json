@@ -1,0 +1,16 @@
+{
+  "name": "@repo/vitest-config",
+  "version": "0.0.1",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "clean": "rimraf .turbo node_modules dist"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "workspace:*",
+    "typescript": "5.9.3",
+    "unplugin-swc": "^2.0.0",
+    "vitest": "4.1.0"
+  }
+}
